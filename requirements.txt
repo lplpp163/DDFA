@@ -1,0 +1,12 @@
+pytorch
+torchvision
+opencv-python
+tensorboard
+imageio
+h5py
+numpy
+matplotlib
+OpenEXR
+scikit-image
+scipy
+tqdm
