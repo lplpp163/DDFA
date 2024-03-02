@@ -187,6 +187,7 @@ class CSA(nn.Module):
         avg_pool_g = F.adaptive_avg_pool2d( g, 1 ).flatten(2).transpose(1,2)
         att_g = self.mlp_g(avg_pool_g)
         
-        scale = torch.sigmoid(att_x + att_g).transpose(1,2)[...,None,None].expand_as(x)
+        att_sum = (att_x + att_g) / 2
+        scale = torch.sigmoid(att_sum).transpose(1,2)[...,None,None].expand_as(x)
 
         return self.act(x * scale)
