@@ -20,7 +20,7 @@
   : Please refer to the steps outlined on the official GitHub page of [AiFDepthNet](https://github.com/albert100121/AiFDepthNet) [6].
 
 * FlyingThings3D Dataset [4]
- [FlyingThings3D_FS](https://drive.google.com/file/d/1tYuaJ2G2PWYWJs6pfrDcsLGgeohhsqA_/view?usp=sharing)
+ [FlyingThings3D_FS](https://drive.google.com/file/d/19n3QGhg-IViwt0aqQ4rR8J3sO60PoWgL/view?usp=sharing)
 
 * Middlebury Dataset [5]
 [Middlebury_FS](https://drive.google.com/file/d/1VaMTYNvReg83dtkDPxPHzkxjtLgITtRA/view?usp=sharing)
